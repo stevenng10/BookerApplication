@@ -1,6 +1,5 @@
 package com.booker.app.model;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -21,11 +20,11 @@ public class Image {
 	private int imageId;
 	private String description;
 	private String imageUrl;
-	@ManyToOne(cascade = CascadeType.ALL)
+	@ManyToOne
 	@JoinColumn(name = "serviceId")
 	@JsonIgnore
 	private ServiceClass service;
-	@ManyToOne(cascade = CascadeType.ALL)
+	@ManyToOne
 	@JoinColumn(name = "travelPackageId")
 	@JsonIgnore
 	private TravelPackage travelPackage;

@@ -35,7 +35,7 @@ public class ServiceClass {
 	@OneToMany(mappedBy = "service", cascade = CascadeType.ALL)
 	@JsonIgnore
 	private List<ServiceFee> serviceFee;
-	@ManyToOne(cascade = CascadeType.ALL)
+	@ManyToOne
 	@JoinColumn(name = "travelPackageId")
 	@JsonIgnore
 	private TravelPackage travelPackage;
@@ -109,7 +109,7 @@ public class ServiceClass {
 	private void createRealtionships() {
 		if (this.image != null) {
 			for (Image image : this.image) {
-				image.setService(image);
+				image.setService(this);
 			}
 		}
 	}

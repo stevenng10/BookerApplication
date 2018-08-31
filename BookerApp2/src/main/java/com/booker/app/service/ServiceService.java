@@ -4,23 +4,25 @@ import java.util.List;
 
 import org.springframework.transaction.annotation.Transactional;
 
-import com.booker.app.model.Image;
 import com.booker.app.model.ServiceClass;
+import com.booker.app.model.TravelPackage;
 import com.booker.app.repository.ServiceRepository;
 
 public class ServiceService {
 
 	private ServiceRepository serviceRepository;
-	private ImageService imageService;
 
-	public ServiceService(ServiceRepository serviceRepository, ImageService imageService) {
+	public ServiceService(ServiceRepository serviceRepository) {
 		super();
 		this.serviceRepository = serviceRepository;
-		this.imageService = imageService;
 	}
 
 	public ServiceClass findById(int id) {
 		return serviceRepository.findById(id).get();
+	}
+
+	public List<ServiceClass> findByAllId(List<Integer> ids) {
+		return (List<ServiceClass>) serviceRepository.findAllById(ids);
 	}
 
 	public List<ServiceClass> findAll() {
@@ -28,36 +30,23 @@ public class ServiceService {
 	}
 
 	@Transactional
-	public List<ServiceClass> saveAllService(List<ServiceClass> services) {
+	public List<ServiceClass> saveAllService(List<ServiceClass> services, TravelPackage travelPackage) {
 		for (ServiceClass service : services) {
-			if (service.getImage() == null) {
-				serviceRepository.save(service);
-			} else {
-				for (Image image : service.getImage()) {
-					image.setService(service);
-					imageService.saveImage(image);
-				}
-				serviceRepository.save(service);
-			}
+			service.setTravelPackage(travelPackage);
 		}
-		return services;
+		return (List<ServiceClass>) serviceRepository.saveAll(services);
 	}
 
 	@Transactional
 	public ServiceClass saveService(ServiceClass service) {
-		if (service.getImage() == null) {
-			return serviceRepository.save(service);
-		} else {
-
-			imageService.saveAllImage(service.getImage());
-			return serviceRepository.save(service);
-		}
+		return serviceRepository.save(service);
 	}
 
-	public void deleteService(ServiceClass service) {
-		for (Image image : service.getImage()) {
-			imageService.deleteImage(image);
-		}
-		serviceRepository.delete(service);
+	public void deleteAllService(List<Integer> serviceId) {
+		serviceRepository.deleteAll(findByAllId(serviceId));
+	}
+
+	public void deleteService(Integer serviceId) {
+		serviceRepository.delete(findById(serviceId));
 	}
 }
