@@ -1,0 +1,8 @@
+package com.booker.app.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class ReservationService {
+
+}

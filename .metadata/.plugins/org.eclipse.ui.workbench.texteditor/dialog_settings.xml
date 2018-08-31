@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="travelPackage" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="reservation"/>
+			<item value="Reservation"/>
+			<item value="Customer"/>
+			<item value="customer"/>
+			<item value="dog"/>
+			<item value="Dog"/>
+			<item value="cat"/>
+			<item value="Cat"/>
+			<item value="&lt;"/>
+			<item value="&lt;="/>
+			<item value="score"/>
+			<item value="// TODO Auto-generated method stub"/>
+			<item value="// TODO Auto-generated constructor stub"/>
+			<item value="runable"/>
+			<item value="runnable"/>
+		</list>
+		<list key="replacehistory">
+			<item value="travelPackage"/>
+			<item value="TravelPackage"/>
+			<item value="Service"/>
+			<item value="service"/>
+			<item value="serviceFee"/>
+			<item value="ServiceFee"/>
+			<item value="Feedback"/>
+			<item value="feedback"/>
+			<item value="Reservation"/>
+			<item value="reservation"/>
+			<item value="image"/>
+			<item value="Image"/>
+			<item value="parrot"/>
+			<item value="Parrot"/>
+			<item value="Cat"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="1009" key="DIALOG_X_ORIGIN"/>
+		<item value="128" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

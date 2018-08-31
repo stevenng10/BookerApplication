@@ -1,0 +1,78 @@
+
+[
+squid:S106Y";Replace this usage of System.out or System.err by a logger.(³ğ€û8…ûÅ¶Ó,H´C
+a
+squid:S106”";Replace this usage of System.out or System.err by a logger.(–Ã¸ıÿÿÿÿ8¸¤Ë¼Ó,HÃC
+[
+squid:S106×";Replace this usage of System.out or System.err by a logger.(‰Ê‚8Ù»ÛÙÓ,HµE
+\
+squid:S106Ë";Replace this usage of System.out or System.err by a logger.(…Áÿê8…ûÅ¶Ó,H E
+[
+squid:S106-";Replace this usage of System.out or System.err by a logger.(ÿØ¡¡8…ûÅ¶Ó,H¹C
+Gsquid:S1166Î"%Either log or rethrow this exception.(”ı¾8Ù»ÛÙÓ,H¶E
+a
+squid:S106¢";Replace this usage of System.out or System.err by a logger.(øœİ‡ıÿÿÿÿ8¸¤Ë¼Ó,H¨C
+a
+squid:S106»";Replace this usage of System.out or System.err by a logger.(½Ï«½şÿÿÿÿ8…ûÅ¶Ó,HÜD
+`
+squid:S106";Replace this usage of System.out or System.err by a logger.(èÓ¾Şûÿÿÿÿ8…ûÅ¶Ó,HÁC
+hsquid:S1132†"GMove the "M" string literal on the left side of this string comparison.(†ô{8…ûÅ¶Ó,HÉC
+[
+squid:S106n";Replace this usage of System.out or System.err by a logger.(³ğ€û8…ûÅ¶Ó,HÇC
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(–ûœÛ8…ûÅ¶Ó,H¾C
+isquid:S1132‰"GMove the "F" string literal on the left side of this string comparison.(‘ĞÆ€8…ûÅ¶Ó,HÊC
+`
+squid:S106$";Replace this usage of System.out or System.err by a logger.(ÃÉÁ²şÿÿÿÿ8…ûÅ¶Ó,H¸C
+[
+squid:S106@";Replace this usage of System.out or System.err by a logger.(³ğ€û8…ûÅ¶Ó,HÂC
+a
+squid:S106ƒ";Replace this usage of System.out or System.err by a logger.(ƒğìúÿÿÿÿ8…ûÅ¶Ó,HÆC
+rsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ËÜˆ`8¸¤Ë¼Ó,H±C
+`
+squid:S106";Replace this usage of System.out or System.err by a logger.(µıÕòıÿÿÿÿ8…ûÅ¶Ó,H¯C
+`
+squid:S106 ";Replace this usage of System.out or System.err by a logger.(ªÙ¼ıÿÿÿÿ8…ûÅ¶Ó,HªC
+Fsquid:S11660"%Either log or rethrow this exception.(”ı¾8àÇÀÙÓ,H×D
+psquid:S1192@"ODefine a constant instead of duplicating this literal "Invalid Input." 3 times.(³ğ€û8…ûÅ¶Ó,H°C
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Í‚›ú8…ûÅ¶Ó,HÀC
+a
+squid:S106Ï";Replace this usage of System.out or System.err by a logger.(Ì¹«ÿÿÿÿÿ8àÇÀÙÓ,H´E
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ã‡ÀŞ8…ûÅ¶Ó,HµC
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.( ÀÏ8…ûÅ¶Ó,HÅC
+\
+squid:S106¯";Replace this usage of System.out or System.err by a logger.(Ø¨Å8¸¤Ë¼Ó,H¶C
+a
+squid:S106˜";Replace this usage of System.out or System.err by a logger.(Ì¹«ÿÿÿÿÿ8…ûÅ¶Ó,H²C
+`
+squid:S106#";Replace this usage of System.out or System.err by a logger.(îÀÁèÿÿÿÿÿ8…ûÅ¶Ó,H¬C
+a
+squid:S106³";Replace this usage of System.out or System.err by a logger.(Ì¹«ÿÿÿÿÿ8…ûÅ¶Ó,H¿C
+`
+squid:S106|";Replace this usage of System.out or System.err by a logger.(¬È©ûÿÿÿÿ8…ûÅ¶Ó,HÓD
+\
+squid:S106 ";Replace this usage of System.out or System.err by a logger.(™ŞäÛ8…ûÅ¶Ó,H³C
+~
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¨¯› ÿÿÿÿÿ8…ûÅ¶Ó,H«C
+[
+squid:S106"";Replace this usage of System.out or System.err by a logger.(àïØ8…ûÅ¶Ó,H¼C
+a
+squid:S106¹";Replace this usage of System.out or System.err by a logger.(ˆ›“üÿÿÿÿ8…ûÅ¶Ó,HºC
+Gsquid:S1166—"%Either log or rethrow this exception.(”ı¾8õğÃÙÓ,HßD
+usquid:S11921"ODefine a constant instead of duplicating this literal "Invalid Input!" 4 times.(Ì¹«ÿÿÿÿÿ8³ØÙÓ,H¡E
+`
+squid:S1061";Replace this usage of System.out or System.err by a logger.(Ì¹«ÿÿÿÿÿ8¸¤Ë¼Ó,HÈC
+Gsquid:S1166²"%Either log or rethrow this exception.(”ı¾8³ØÙÓ,H£E
+`
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ô¤Ëºıÿÿÿÿ8…ûÅ¶Ó,H·C
+a
+squid:S106Õ";Replace this usage of System.out or System.err by a logger.(°ÃÂÿıÿÿÿÿ8³ØÙÓ,H¢E
+Z
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ë¯ò@8¸¤Ë¼Ó,H©C
+a
+squid:S106À";Replace this usage of System.out or System.err by a logger.(ßç¼ûÿÿÿÿ8õğÃÙÓ,HİD
+`
+squid:S106%";Replace this usage of System.out or System.err by a logger.(’¾‡‡úÿÿÿÿ8…ûÅ¶Ó,H®C

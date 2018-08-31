@@ -1,0 +1,90 @@
+
+¨squid:S2293"Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.)(ó…ŒªH6
+Z
+squid:S106›";Replace this usage of System.out or System.err by a logger.(éßáÛÿÿÿÿÿH‚6
+dsquid:S1132·"JMove the "Male" string literal on the left side of this string comparison.(È»üjHƒ6
+T
+squid:S106&";Replace this usage of System.out or System.err by a logger.(Ş¶‹«H„6
+T
+squid:S106;";Replace this usage of System.out or System.err by a logger.(×ëîH…6
+T
+squid:S106X";Replace this usage of System.out or System.err by a logger.(â‹şH†6
+U
+squid:S106";Replace this usage of System.out or System.err by a logger.(“­çóH‡6
+T
+squid:S106^";Replace this usage of System.out or System.err by a logger.(œĞÃHˆ6
+T
+squid:S106u";Replace this usage of System.out or System.err by a logger.(Úšø§H‰6
+Z
+squid:S106”";Replace this usage of System.out or System.err by a logger.(°Öß³øÿÿÿÿHŠ6
+T
+squid:S106J";Replace this usage of System.out or System.err by a logger.(ø¢šøH‹6
+U
+squid:S106¶";Replace this usage of System.out or System.err by a logger.(“­çóHŒ6
+Z
+squid:S106ˆ";Replace this usage of System.out or System.err by a logger.(î°’™ÿÿÿÿÿH6
+esquid:UselessImportCheck"7Remove this unused import 'com.account.DAO.AccountDAO'.(”¾Û¤8ùÉšŠÒ,H6
+Tsquid:S1118":Add a private constructor to hide the implicit public one.(£’§íH6
+U
+squid:S106’";Replace this usage of System.out or System.err by a logger.(“­çóH6
+Z
+squid:S106Ó";Replace this usage of System.out or System.err by a logger.( ­‡àúÿÿÿÿH‘6
+U
+squid:S106‘";Replace this usage of System.out or System.err by a logger.(æÑ©ãH’6
+T
+squid:S106a";Replace this usage of System.out or System.err by a logger.(ŠÏ¯¿H“6
+U
+squid:S106¾";Replace this usage of System.out or System.err by a logger.(ıä²H”6
+T
+squid:S106l";Replace this usage of System.out or System.err by a logger.(²¾şH•6
+zsquid:S1192"_Define a constant instead of duplicating this literal "******************************" 4 times.(“­çóH–6
+Z
+squid:S106Õ";Replace this usage of System.out or System.err by a logger.( ­‡àúÿÿÿÿH—6
+U
+squid:S106Ô";Replace this usage of System.out or System.err by a logger.(æÑ©ãH˜6
+Y
+squid:S106"";Replace this usage of System.out or System.err by a logger.(Ò½Õ›ùÿÿÿÿH™6
+U
+squid:S106¿";Replace this usage of System.out or System.err by a logger.(ê¸ÚôHš6
+Z
+squid:S106§";Replace this usage of System.out or System.err by a logger.(éßáÛÿÿÿÿÿH›6
+T
+squid:S106M";Replace this usage of System.out or System.err by a logger.(×ëîHœ6
+T
+squid:S106'";Replace this usage of System.out or System.err by a logger.(¬ì»ìH6
+T
+squid:S106µ";Replace this usage of System.out or System.err by a logger.(ôûÇnH6
+Z
+squid:S106×";Replace this usage of System.out or System.err by a logger.(ã¦È´ÿÿÿÿÿHŸ6
+T
+squid:S106$";Replace this usage of System.out or System.err by a logger.(ˆêŠH 6
+Y
+squid:S106[";Replace this usage of System.out or System.err by a logger.(”ßı¯şÿÿÿÿH¡6
+Z
+squid:S106";Replace this usage of System.out or System.err by a logger.(×Ü–·øÿÿÿÿH¢6
+T
+squid:S106p";Replace this usage of System.out or System.err by a logger.(™ßé®H£6
+T
+squid:S1068";Replace this usage of System.out or System.err by a logger.(Ê“•…H¤6
+T
+squid:S106y";Replace this usage of System.out or System.err by a logger.(ùÎÜÌH¥6
+U
+squid:S106Ä";Replace this usage of System.out or System.err by a logger.(˜šôœH¦6
+T
+squid:S106!";Replace this usage of System.out or System.err by a logger.(Î²ÛÇH§6
+T
+squid:S106%";Replace this usage of System.out or System.err by a logger.(˜ö¥åH¨6
+U
+squid:S106´";Replace this usage of System.out or System.err by a logger.(“­çóH©6
+T
+squid:S106)";Replace this usage of System.out or System.err by a logger.(•Ñß¾Hª6
+asquid:S1132d"GMove the "Y" string literal on the left side of this string comparison.(‹À×»H«6
+Y
+squid:S106 ";Replace this usage of System.out or System.err by a logger.(á€¯úÿÿÿÿH¬6
+T
+squid:S106(";Replace this usage of System.out or System.err by a logger.(…Ï”H­6
+T
+squid:S106z";Replace this usage of System.out or System.err by a logger.(Úšø§H®6
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÒÖ³H¯6
+Y
+squid:S106q";Replace this usage of System.out or System.err by a logger.(’°ÙêşÿÿÿÿH°6

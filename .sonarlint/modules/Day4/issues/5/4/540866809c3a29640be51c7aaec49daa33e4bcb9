@@ -1,0 +1,8 @@
+
+osquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Úº´8œú”Ò,H£.
+~squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ıÏ²²ùÿÿÿÿ8œú”Ò,H¥.
+´squid:S2293"Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.)(·Û¨§øÿÿÿÿ8ÕÙ­Ò,H§.
+^
+squid:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8–ÀÅÒ,H¸.
+^
+squid:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8–ÀÅÒ,H¹.

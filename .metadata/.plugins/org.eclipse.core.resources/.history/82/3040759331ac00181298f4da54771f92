@@ -1,0 +1,37 @@
+package com.booker.app.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.booker.app.model.Image;
+import com.booker.app.repository.ImageRepository;
+
+@Service
+public class ImageService {
+
+	private ImageRepository imageRepository;
+
+	public ImageService(ImageRepository imageRepository) {
+		super();
+		this.imageRepository = imageRepository;
+	}
+
+	public Image findById(int id) {
+		return imageRepository.findById(id).get();
+	}
+
+	public Iterable<Image> findAll() {
+		return imageRepository.findAll();
+	}
+
+	@Transactional
+	public List<Image> saveImage(List<Image> images) {
+		return imageRepository.saveAll(images);
+	}
+
+	public void deleteImage(Image image) {
+		imageRepository.delete(image);
+	}
+}

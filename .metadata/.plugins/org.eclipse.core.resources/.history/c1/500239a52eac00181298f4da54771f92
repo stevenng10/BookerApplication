@@ -1,0 +1,47 @@
+package com.booker.app.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.booker.app.model.Customer;
+import com.booker.app.model.Reservation;
+import com.booker.app.model.ServiceClass;
+import com.booker.app.repository.ServiceRepository;
+
+@Service
+public class ServiceService {
+
+	private ServiceRepository serviceRepository;
+
+	public ServiceService(ServiceRepository serviceRepository) {
+		super();
+		this.serviceRepository = serviceRepository;
+	}
+
+	public ServiceClass findById(int id) {
+		return serviceRepository.findById(id).get();
+	}
+
+	public List<ServiceClass> findAll() {
+		return (List<ServiceClass>) serviceRepository.findAll();
+	}
+
+	@Transactional
+	public List<ServiceClass> saveService(List<ServiceClass> services) {
+		for (ServiceClass service : services) {
+			if (service.getImage() == null) {
+				customerRepository.save(customer);
+			} else {
+				reservationRepository.saveAll((List<Reservation>) customer.getReservation());
+				customerRepository.save(customer);
+			}
+		}
+		return services;
+	}
+
+	public void deleteService(ServiceClass service) {
+		serviceRepository.delete(service);
+	}
+}

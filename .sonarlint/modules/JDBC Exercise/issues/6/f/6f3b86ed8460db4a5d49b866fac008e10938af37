@@ -1,0 +1,11 @@
+
+?squid:S1166"%Either log or rethrow this exception.(É®£H»l
+Y
+squid:S106";Replace this usage of System.out or System.err by a logger.(©şêÜúÿÿÿÿH·l
+Y
+squid:S106";Replace this usage of System.out or System.err by a logger.(¨µÃ‘øÿÿÿÿH¶l
+@squid:S1170	"!Make this final field static too.(íª¼ÎÿÿÿÿÿH¸l
+:squid:S2068" Remove this hard-coded password.(Œ…ÂºHµl
+;squid:S1170"!Make this final field static too.(Œ…ÂºHºl
+@squid:S1170
+"!Make this final field static too.(ºÄÌÚûÿÿÿÿH¹l

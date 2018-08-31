@@ -1,0 +1,8 @@
+
+Isquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8«ÕÄºÓ,H‰?
+Y
+squid:S106";Replace this usage of System.out or System.err by a logger.(ó®«™üÿÿÿÿHÓ>
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰ªÃÍHÑ>
+Fsquid:S1166"%Either log or rethrow this exception.(”ý¾8€’¼ºÓ,H‡?
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(õ´ ºHÒ>

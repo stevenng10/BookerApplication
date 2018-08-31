@@ -1,0 +1,5 @@
+
+\squid:S1854";Remove this useless assignment to local variable "isAdded".(¯œ8Ô¬É¶Ó,HC
+rsquid:S1132%"LMove the "parrot" string literal on the left side of this string comparison.(à•­Ñùÿÿÿÿ8õùÊ¶Ó,HœC
+msquid:S1192"GDefine a constant instead of duplicating this literal "parrot" 7 times.(•¥½şÿÿÿÿ8õùÊ¶Ó,H™C
+Bsquid:S1643'"Use a StringBuilder instead.(ÕÇºËşÿÿÿÿ8Ô¬É¶Ó,HšC

@@ -1,0 +1,6 @@
+package com.booker.app.model;
+
+@Entity
+public class Service {
+
+}

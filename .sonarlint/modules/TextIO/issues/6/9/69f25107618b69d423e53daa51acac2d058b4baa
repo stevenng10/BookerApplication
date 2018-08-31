@@ -1,0 +1,13 @@
+
+>squid:S2095"Close this "FileWriter".(ÁÊŒÃüÿÿÿÿ8×üˆÓ,H¼4
+;squid:S2095"Close this "Scanner".( –ı®ıÿÿÿÿ8ÁØ•‰Ó,Hƒ5
+Fsquid:S1166-"%Either log or rethrow this exception.(ï­£Ä8øé¨ˆÓ,Hß3
+™squid:S2147-"xCombine this catch with the one at line 43, which has the same body. (sonar.java.source not set. Assuming 7 or greater.)(ï­£Ä8øé¨ˆÓ,Hà3
+`squid:S1118
+":Add a private constructor to hide the implicit public one.(Äş¢†ıÿÿÿÿ8çÄïŠÓ,H§5
+Isquid:S1148,"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8øé¨ˆÓ,Há3
+4squid:S1220""Move this file to a named package.H¾3
+Fsquid:S1166+"%Either log or rethrow this exception.(‹±ÃÆ8ß»šˆÓ,HĞ3
+qsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(Ìê¯ÿÿÿÿÿ8…ÏçŠÓ,H5
+Isquid:S1148."#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ß»šˆÓ,HÑ3
+_squid:S1854"9Remove this useless assignment to local variable "lines".(Š¨”Ûúÿÿÿÿ8…ˆ—‰Ó,Hø4

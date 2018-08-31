@@ -1,0 +1,12 @@
+package com.booker.app.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Service {
+
+	private int serviceId;
+	private String serviceName;
+	private String description;
+	private List<Image> image;
+}

@@ -1,0 +1,5 @@
+package com.booker.app.repository;
+
+public interface ReservationRepository {
+
+}

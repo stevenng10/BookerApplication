@@ -1,0 +1,42 @@
+package com.pw.io.booker.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+/**
+ * @author Jade Devin Cabatlao
+ *
+ */
+@Entity
+public class Customer {
+
+	@Id
+	private int customerId;
+	private String firstName;
+	private String lastName;
+
+	public int getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+}

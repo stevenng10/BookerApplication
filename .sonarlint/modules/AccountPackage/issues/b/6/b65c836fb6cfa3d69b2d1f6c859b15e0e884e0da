@@ -1,0 +1,6 @@
+
+`
+squid:S106";Replace this usage of System.out or System.err by a logger.(×Ü–·øÿÿÿÿ8Á™Ù‘Ò,Hç.
+Œ"squid:ClassVariableVisibilityCheck"OMake acc a static final constant or non-public and provide accessors if needed.(óÜ¡Œþÿÿÿÿ8±¾€˜Ò,HŠ3
+`
+squid:S106!";Replace this usage of System.out or System.err by a logger.(î°’™ÿÿÿÿÿ8Á™Ù‘Ò,Hæ.

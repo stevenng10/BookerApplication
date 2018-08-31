@@ -1,0 +1,11 @@
+
+´squid:S2293
+"Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.)(İÎãªÿÿÿÿÿ8êÄ‰ŠÒ,H±6
+‘"squid:ClassVariableVisibilityCheck
+"TMake accounts a static final constant or non-public and provide accessors if needed.(İÎãªÿÿÿÿÿ8Ñ¤ä‘Ò,H²6
+[squid:S1118":Add a private constructor to hide the implicit public one.(¬ú®í8êÄ‰ŠÒ,H³6
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¥úõÇH´6
+Csquid:S2386
+"Make this member "protected".(İÎãªÿÿÿÿÿ8Ñ¤ä‘Ò,Hµ6
+Tsquid:S1444
+".Make this "public static accounts" field final(İÎãªÿÿÿÿÿ8Ñ¤ä‘Ò,H¶6

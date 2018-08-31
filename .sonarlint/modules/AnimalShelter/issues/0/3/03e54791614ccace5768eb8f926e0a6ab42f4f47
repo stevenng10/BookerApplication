@@ -1,0 +1,78 @@
+
+a
+squid:S106ƒ";Replace this usage of System.out or System.err by a logger.(Ï‚©°şÿÿÿÿ8ºÆ²¶Ó,HåC
+~
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¨¯› ÿÿÿÿÿ8ºÆ²¶Ó,HÌC
+`
+squid:S106|";Replace this usage of System.out or System.err by a logger.(İ¯Ûüøÿÿÿÿ8¡Â¼Ó,HİC
+\
+squid:S106”";Replace this usage of System.out or System.err by a logger.(«ş§î8ºÆ²¶Ó,HØC
+`
+squid:S106%";Replace this usage of System.out or System.err by a logger.(’¾‡‡úÿÿÿÿ8ºÆ²¶Ó,HÜC
+[
+squid:S106Y";Replace this usage of System.out or System.err by a logger.(³ğ€û8ºÆ²¶Ó,HéC
+\
+squid:S106Ø";Replace this usage of System.out or System.err by a logger.(ÀÁÚû8¹¨ÜÙÓ,H¼E
+a
+squid:S106Ì";Replace this usage of System.out or System.err by a logger.(•ƒ¢·øÿÿÿÿ8šÇÙÙÓ,H®E
+[
+squid:S106n";Replace this usage of System.out or System.err by a logger.(³ğ€û8ºÆ²¶Ó,HãC
+xsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(öÈ“Ÿøÿÿÿÿ8¡Â¼Ó,HÔC
+a
+squid:S106Ğ";Replace this usage of System.out or System.err by a logger.(Ì¹«ÿÿÿÿÿ8ºÆ²¶Ó,H»E
+hsquid:S1132†"GMove the "M" string literal on the left side of this string comparison.(†ô{8ºÆ²¶Ó,HçC
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¨ˆÏã8ºÆ²¶Ó,HáC
+usquid:S11921"ODefine a constant instead of duplicating this literal "Invalid Input!" 4 times.(Ì¹«ÿÿÿÿÿ8šÇÙÙÓ,H­E
+psquid:S1192@"ODefine a constant instead of duplicating this literal "Invalid Input." 3 times.(³ğ€û8ºÆ²¶Ó,HÖC
+a
+squid:S106˜";Replace this usage of System.out or System.err by a logger.(Ì¹«ÿÿÿÿÿ8ºÆ²¶Ó,HüD
+`
+squid:S106";Replace this usage of System.out or System.err by a logger.(è½³öúÿÿÿÿ8ºÆ²¶Ó,HäC
+\
+squid:S106¯";Replace this usage of System.out or System.err by a logger.(‹¿°æ8¡Â¼Ó,HÕC
+[
+squid:S106¢";Replace this usage of System.out or System.err by a logger.(§òä8¡Â¼Ó,H»D
+a
+squid:S106À";Replace this usage of System.out or System.err by a logger.(¯µéşÿÿÿÿ8Š„ÑÙÓ,HıD
+`
+squid:S106#";Replace this usage of System.out or System.err by a logger.(àõş†ùÿÿÿÿ8ºÆ²¶Ó,HĞC
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ã‡ÀŞ8ºÆ²¶Ó,HÍC
+[
+squid:S106Ö";Replace this usage of System.out or System.err by a logger.(‰ĞÁS8ºÆ²¶Ó,HÙC
+Fsquid:S11660"%Either log or rethrow this exception.(”ı¾8ÕŒ¾ÙÓ,HÀD
+[
+squid:S106$";Replace this usage of System.out or System.err by a logger.(§ŒÔŸ8ºÆ²¶Ó,HßC
+a
+squid:S106³";Replace this usage of System.out or System.err by a logger.(Ì¹«ÿÿÿÿÿ8¡Â¼Ó,H¬E
+isquid:S1132‰"GMove the "F" string literal on the left side of this string comparison.(‘ĞÆ€8ºÆ²¶Ó,H×C
+`
+squid:S106";Replace this usage of System.out or System.err by a logger.(ªõ–éúÿÿÿÿ8ºÆ²¶Ó,HÑC
+Gsquid:S1166²"%Either log or rethrow this exception.(”ı¾8šÇÙÙÓ,H¯E
+Gsquid:S1166—"%Either log or rethrow this exception.(”ı¾8Š„ÑÙÓ,HşD
+[
+squid:S106-";Replace this usage of System.out or System.err by a logger.(ÿØ¡¡8ºÆ²¶Ó,HŞC
+`
+squid:S1061";Replace this usage of System.out or System.err by a logger.(Ì¹«ÿÿÿÿÿ8ºÆ²¶Ó,HÛC
+`
+squid:S106 ";Replace this usage of System.out or System.err by a logger.(ªÙ¼ıÿÿÿÿ8ºÆ²¶Ó,HëC
+`
+squid:S106";Replace this usage of System.out or System.err by a logger.(èÓ¾Şûÿÿÿÿ8ºÆ²¶Ó,HâC
+a
+squid:S106¹";Replace this usage of System.out or System.err by a logger.(©şëõûÿÿÿÿ8ÕŒ¾ÙÓ,H¼D
+a
+squid:S106»";Replace this usage of System.out or System.err by a logger.(™ÄíÄÿÿÿÿÿ8ºÆ²¶Ó,HíC
+[
+squid:S106@";Replace this usage of System.out or System.err by a logger.(³ğ€û8¡Â¼Ó,HêC
+Z
+squid:S106";Replace this usage of System.out or System.err by a logger.(Æì£58ºÆ²¶Ó,HÏC
+[
+squid:S106"";Replace this usage of System.out or System.err by a logger.(£•Ğ¨8ºÆ²¶Ó,HÒC
+Gsquid:S1166Ï"%Either log or rethrow this exception.(”ı¾8¹¨ÜÙÓ,H½E
+a
+squid:S106 ";Replace this usage of System.out or System.err by a logger.(ßöÄ‘şÿÿÿÿ8ºÆ²¶Ó,HàC
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¸éé“8ºÆ²¶Ó,HÎC
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(—åÑ¢8ºÆ²¶Ó,HèC

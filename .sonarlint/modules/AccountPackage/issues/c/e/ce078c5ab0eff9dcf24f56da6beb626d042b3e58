@@ -1,0 +1,14 @@
+
+Y
+squid:S106";Replace this usage of System.out or System.err by a logger.(ªãÖ»ıÿÿÿÿHÿ1
+S
+squid:S106";Replace this usage of System.out or System.err by a logger.(¬ñá.H€2
+Y
+squid:S106%";Replace this usage of System.out or System.err by a logger.(ªãÖ»ıÿÿÿÿH2
+T
+squid:S106*";Replace this usage of System.out or System.err by a logger.(ùºšúH‚2
+bsquid:S1226"CIntroduce a new variable instead of reusing the parameter "amount".(ÛÓºüÿÿÿÿHƒ2
+bsquid:S1226"CIntroduce a new variable instead of reusing the parameter "amount".(ÛÓºüÿÿÿÿH„2
+bsquid:S1226$"CIntroduce a new variable instead of reusing the parameter "amount".(ÛÓºüÿÿÿÿH…2
+bsquid:S1226)"CIntroduce a new variable instead of reusing the parameter "amount".(ÛÓºüÿÿÿÿH†2
+zsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(·ú¼üÿÿÿÿH‡2

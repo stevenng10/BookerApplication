@@ -1,0 +1,17 @@
+ERROR com.sakila.repository.FilmDao 23 Aug 2018 10:02:56. - SQLException occurred - databse connection not found: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (null, duck, yolo, 3.9900000000000002, PG, NA, Comedy).
+ERROR com.sakila.presentation.FilmUI 23 Aug 2018 10:02:56. - Exception occured: File not found.
+ERROR com.sakila.presentation.FilmUI 23 Aug 2018 10:48:04. - Exception occured: null
+ERROR com.sakila.presentation.FilmUI 23 Aug 2018 10:50:00. - Exception occured: null
+ERROR com.sakila.presentation.FilmUI 23 Aug 2018 10:51:10. - Exception occured: null
+ERROR com.sakila.presentation.FilmUI 23 Aug 2018 10:52:59. - Exception occured: null
+ERROR com.sakila.presentation.LoginUI 23 Aug 2018 13:31:47. - Exception occured: null
+ERROR com.sakila.presentation.LoginUI 23 Aug 2018 13:34:37. - Exception occured: null
+ERROR com.sakila.presentation.LoginUI 23 Aug 2018 13:38:04. - Exception occured: null
+ERROR com.sakila.presentation.LoginUI 23 Aug 2018 13:38:51. - Exception occured: null
+ERROR com.sakila.presentation.LoginUI 23 Aug 2018 13:41:55. - Exception occured: null
+ERROR com.sakila.presentation.LoginUI 23 Aug 2018 13:42:39. - Exception occured: null
+ERROR com.sakila.repository.LoginDao 23 Aug 2018 13:45:04. - SQLException occurred - databse connection not found: ResultSet not positioned properly, perhaps you need to call next.
+ERROR com.sakila.presentation.LoginUI 23 Aug 2018 13:45:04. - Exception occured: File not found.
+ERROR com.sakila.presentation.LoginUI 23 Aug 2018 13:46:37. - Exception occured: null
+ERROR com.sakila.presentation.LoginUI 23 Aug 2018 13:46:53. - Exception occured: null

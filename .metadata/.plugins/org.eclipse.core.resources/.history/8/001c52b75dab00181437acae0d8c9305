@@ -1,0 +1,12 @@
+package com.example.demo.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Customer {
+
+	@Id
+	private int customerId;
+	private String firstName;
+	private String lastName;
+}

@@ -1,0 +1,15 @@
+package com.booker.app.model;
+
+import java.time.LocalDate;
+
+import javax.persistence.Id;
+
+@Entity
+public class ServiceFee {
+
+	@Id
+	private int serviceFeeId;
+	private float amount;
+	private Service service;
+	private LocalDate startDate;
+}

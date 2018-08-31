@@ -1,0 +1,4 @@
+
+Msquid:S1172("2Remove this unused method parameter "reservation".(ŒÔ‡‘H±Ç
+Fsquid:S1168)"+Return an empty collection instead of null.(•πÔçH≤Ç
+bsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(…·‚ÖH≥Ç

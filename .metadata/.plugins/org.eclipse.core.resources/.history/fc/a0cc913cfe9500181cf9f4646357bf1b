@@ -1,0 +1,31 @@
+package hello;
+
+public class ExerciseDay1 {
+
+	public static void main(String[] args) {
+		boolean cont = false;
+		int counter = 0;
+		do {
+			System.out.print("Input number:");
+			int num = input.nextInt();
+			int secretNumber = (int)(Math.random()*100);
+			
+			if(num > secretNumber) {
+				System.out.println("Try lower");
+				counter++;
+				cont = true;
+			} else if ( num < secretNumber) {
+				System.out.println("Try higher");
+				counter++;
+				cont = true;
+			} else {
+				++counter;
+				System.out.println("You did it in " + counter + " trials.");
+				cont = false;
+			}
+		} while(cont);
+		input.close();
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.pw.io.booker;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Bean;
+
+import com.pw.io.booker.model.Reservation;
+import com.pw.io.booker.model.TravelItem;
+import com.pw.io.booker.repository.FeedbackRepository;
+import com.pw.io.booker.service.ReservationService;
+import com.pw.io.booker.service.TravelItemService;
+import com.pw.io.booker.util.BookerServiceUtil;
+
+@SpringBootApplication(scanBasePackages = { "com.pw.io.booker.config", "com.pw.io.booker.controller"})
+public class BookingServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BookingServiceApplication.class, args);
+	}
+	
+}

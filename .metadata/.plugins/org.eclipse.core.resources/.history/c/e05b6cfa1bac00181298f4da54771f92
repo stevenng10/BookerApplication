@@ -1,0 +1,6 @@
+package com.booker.app.repository;
+
+@Repository
+public class CustomerRepository {
+
+}

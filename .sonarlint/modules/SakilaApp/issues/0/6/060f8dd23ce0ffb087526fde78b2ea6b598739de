@@ -1,0 +1,61 @@
+
+‰squid:S1192'"hDefine a constant instead of duplicating this literal "Error occurred. Please try again later!" 4 times.(şıçŠ8ãµÃ¥Õ,HÚj
+Fsquid:S1166%"%Either log or rethrow this exception.(”ı¾8’ªÂ¥Õ,HÛj
+`
+squid:S106B";Replace this usage of System.out or System.err by a logger.(Ïé ¿øÿÿÿÿ8‚ËÔ,HÜj
+squid:S1192V"hDefine a constant instead of duplicating this literal "File not found! Please try again later." 3 times.(Ÿõ×ùÿÿÿÿ8ãµÃ¥Õ,Hİj
+`
+squid:S106H";Replace this usage of System.out or System.err by a logger.(¯œ€®ûÿÿÿÿ8»§ªÔ,Hœj
+`
+squid:S106c";Replace this usage of System.out or System.err by a logger.(Ÿõ×ùÿÿÿÿ8‚ËÔ,H‹i
+[
+squid:S106G";Replace this usage of System.out or System.err by a logger.(™Ê­¿8‚ËÔ,H›j
+[
+squid:S106;";Replace this usage of System.out or System.err by a logger.(³ğ€û8şâá¥Õ,Hj
+™squid:S1192U"xDefine a constant instead of duplicating this literal "FileNotFoundException occurred - input file not found: " 3 times.(ÿ‡Æ“8ãµÃ¥Õ,Håi
+`
+squid:S106V";Replace this usage of System.out or System.err by a logger.(Ÿõ×ùÿÿÿÿ8»§ªÔ,H™j
+`
+squid:S106";Replace this usage of System.out or System.err by a logger.(ãÑ®†ùÿÿÿÿ8‚ËÔ,H…i
+Fsquid:S1166T"%Either log or rethrow this exception.(‹±ÃÆ8Ÿ÷¿¥Õ,HĞi
+[
+squid:S106J";Replace this usage of System.out or System.err by a logger.(¹¦ÔÚ8Ÿ÷¿¥Õ,HÏi
+`
+squid:S106";Replace this usage of System.out or System.err by a logger.(ïÉç÷úÿÿÿÿ8‚ËÔ,Hšj
+Fsquid:S1166a"%Either log or rethrow this exception.(‹±ÃÆ8ãµÃ¥Õ,Hèi
+`
+squid:S106L";Replace this usage of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8‚ËÔ,H‘i
+`
+squid:S106+";Replace this usage of System.out or System.err by a logger.(öó¾ïøÿÿÿÿ8»§ªÔ,H‡i
+[
+squid:S106s";Replace this usage of System.out or System.err by a logger.(şıçŠ8Ÿ÷¿¥Õ,HÎi
+Fsquid:S1166W"%Either log or rethrow this exception.(”ı¾8Ÿ÷¿¥Õ,HÑi
+€squid:S1192+"ZDefine a constant instead of duplicating this literal "*************************" 3 times.(öó¾ïøÿÿÿÿ8‚ËÔ,Hi
+`
+squid:S106$";Replace this usage of System.out or System.err by a logger.(ÂñËÎıÿÿÿÿ8Æ­œÔ,Hƒi
+[
+squid:S106,";Replace this usage of System.out or System.err by a logger.(ĞÏ°Ş8»§ªÔ,Hi
+`
+squid:S106.";Replace this usage of System.out or System.err by a logger.(öó¾ïøÿÿÿÿ8şâá¥Õ,Hj
+[
+squid:S106Y";Replace this usage of System.out or System.err by a logger.(şıçŠ8‚ËÔ,H†i
+Fsquid:S1166n"%Either log or rethrow this exception.(‹±ÃÆ8’ªÂ¥Õ,HÜi
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(†ÓÅŒ8’ªÂ¥Õ,HÚi
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ô‚í8‚ËÔ,Hˆi
+`
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ù«ëïüÿÿÿÿ8‚ËÔ,H’i
+[
+squid:S106'";Replace this usage of System.out or System.err by a logger.(şıçŠ8»§ªÔ,HŞj
+`
+squid:S106<";Replace this usage of System.out or System.err by a logger.(öó¾ïøÿÿÿÿ8‚ËÔ,HŒi
+`
+squid:S106p";Replace this usage of System.out or System.err by a logger.(Ÿõ×ùÿÿÿÿ8ãµÃ¥Õ,Hçi
+Fsquid:S1166d"%Either log or rethrow this exception.(”ı¾8şâá¥Õ,H j
+Fsquid:S1166q"%Either log or rethrow this exception.(”ı¾8ãµÃ¥Õ,Héi
+`
+squid:S106I";Replace this usage of System.out or System.err by a logger.(êÆà±ûÿÿÿÿ8ãµÃ¥Õ,Hæi
+zsquid:S1192&"TDefine a constant instead of duplicating this literal "Exception occured: " 4 times.(ÙÈ³ùüÿÿÿÿ8ãµÃ¥Õ,Hßj
+[
+squid:S106f";Replace this usage of System.out or System.err by a logger.(şıçŠ8’ªÂ¥Õ,HÛi

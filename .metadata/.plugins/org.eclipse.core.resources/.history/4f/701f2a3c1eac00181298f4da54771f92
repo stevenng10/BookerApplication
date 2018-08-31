@@ -1,0 +1,11 @@
+package com.booker.app.service;
+
+import org.springframework.stereotype.Service;
+
+import com.booker.app.repository.CustomerRepository;
+
+@Service
+public class ReservationService {
+
+	private ReservationRepository reservationRepository;
+}

@@ -1,0 +1,10 @@
+package com.pw.io.booker.repository.impl.jdbc;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.pw.io.booker.model.TravelPackage;
+import com.pw.io.booker.repository.TravelPackageRepository;
+
+public interface TravelPackageSQLInterface extends CrudRepository<TravelPackage, Integer>, TravelPackageRepository {
+
+}

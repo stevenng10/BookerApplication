@@ -1,0 +1,7 @@
+package com.pw.io.booker.repository.impl.jdbc;
+
+import com.pw.io.booker.model.TravelPackage;
+
+public class TravelPackageRowMapper implements RowMapper<TravelPackage> {
+
+}

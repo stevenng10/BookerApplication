@@ -1,0 +1,16 @@
+
+=squid:S2386"Make this member "protected".(ú‰µ8’ñÚ‘Ó,H®J
+Ssquid:S1444"-Make this "public static catList" field final(ÛÿŞúÿÿÿÿ8³ˆÆ»Ó,H¯J
+Csquid:S2386"Make this member "protected".(ÛÿŞúÿÿÿÿ8³ˆÆ»Ó,H°J
+Psquid:S1444"*Make this "public static hmap" field final(®úƒ’ıÿÿÿÿ8£ùÄÓ,H±J
+Msquid:S1444"-Make this "public static dogList" field final(ú‰µ8³ˆÆ»Ó,H²J
+Vsquid:S1444"0Make this "public static parrotList" field final(Œ‡É–üÿÿÿÿ8³ˆÆ»Ó,H³J
+"squid:ClassVariableVisibilityCheck"SMake catList a static final constant or non-public and provide accessors if needed.(ÛÿŞúÿÿÿÿ8³ˆÆ»Ó,H´J
+“"squid:ClassVariableVisibilityCheck"VMake parrotList a static final constant or non-public and provide accessors if needed.(Œ‡É–üÿÿÿÿ8³ˆÆ»Ó,HµJ
+"squid:ClassVariableVisibilityCheck"PMake hmap a static final constant or non-public and provide accessors if needed.(®úƒ’ıÿÿÿÿ8£ùÄÓ,H¶J
+Csquid:S2386"Make this member "protected".(Œ‡É–üÿÿÿÿ8³ˆÆ»Ó,H·J
+Š"squid:ClassVariableVisibilityCheck"SMake dogList a static final constant or non-public and provide accessors if needed.(ú‰µ8³ˆÆ»Ó,H¸J
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(µöğ²H¹J
+Csquid:S2386"Make this member "protected".(®úƒ’ıÿÿÿÿ8Å•ÇÓ,HºJ
+[squid:S1118
+":Add a private constructor to hide the implicit public one.(ôøÒ³8£ùÄÓ,H»J

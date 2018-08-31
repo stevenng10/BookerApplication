@@ -1,0 +1,64 @@
+package com.booker.app.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.booker.app.model.ServiceClass;
+import com.booker.app.model.TravelPackage;
+import com.booker.app.repository.ImageRepository;
+import com.booker.app.repository.TravelPackageRepository;
+
+@Service
+public class TravelPackageService {
+
+	private TravelPackageRepository travelPackageRepository;
+	private ServiceService serviceService;
+	private ImageRepository imageRepository;
+
+	public TravelPackageService(TravelPackageRepository travelPackageRepository, ServiceService serviceService,
+			ImageRepository imageRepository) {
+		super();
+		this.travelPackageRepository = travelPackageRepository;
+		this.serviceService = serviceService;
+		this.imageRepository = imageRepository;
+	}
+
+	public TravelPackage findById(int id) {
+		return travelPackageRepository.findById(id).get();
+	}
+
+	public Iterable<TravelPackage> findAll() {
+		return travelPackageRepository.findAll();
+	}
+
+	@Transactional
+	public List<TravelPackage> saveAllTravelPackage(List<TravelPackage> travelPackages) {
+		for (TravelPackage travelPackage : travelPackages) {
+			if (travelPackage.getAvailableServiceList() != null || travelPackage.getImage() != null) {
+				for (ServiceClass service : travelPackage.getAvailableServiceList()) {
+					service.setTravelPackage(travelPackage);
+					serviceService.saveService(travelPackage.getAvailableServiceList());
+				}
+				for (Image image : travelPackage.getImage()) {
+					imageRepository.saveAll(travelPackage.getImage());
+				}
+				travelPackageRepository.save(travelPackage);
+			} else if (travelPackage.getAvailableServiceList() != null || travelPackage.getImage() == null) {
+				serviceService.saveService(travelPackage.getAvailableServiceList());
+				travelPackageRepository.save(travelPackage);
+			} else if (travelPackage.getAvailableServiceList() == null || travelPackage.getImage() != null) {
+				imageRepository.saveAll(travelPackage.getImage());
+				travelPackageRepository.save(travelPackage);
+			} else {
+				travelPackageRepository.save(travelPackage);
+			}
+		}
+		return travelPackages;
+	}
+
+	public void deleteTravelPackage(TravelPackage travelPackage) {
+		travelPackageRepository.delete(travelPackage);
+	}
+}

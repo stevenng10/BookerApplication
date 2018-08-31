@@ -1,0 +1,6 @@
+
+`
+squid:S1063";Replace this usage of System.out or System.err by a logger.(ú¤Ìÿıÿÿÿÿ8´¦¹Ó,Hºf
+/squid:S2095"Close this "Scanner".(…Š±ÆH¹f
+„squid:S2093"^Change this "try" to a try-with-resources. (sonar.java.source not set. Assuming 7 or greater.)(¡»¢üùÿÿÿÿ8ÕÔèÓ,H»f
+¨squid:S2293"Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.)(ü„İ´H¸f

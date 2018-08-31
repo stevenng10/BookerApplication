@@ -1,0 +1,15 @@
+package com.pw.io.booker.controller;
+
+import org.springframework.stereotype.Controller;
+
+import com.pw.io.booker.service.TravelPackageService;
+
+@Controller
+public class BookerController {
+
+	@RequestMapping("/travel-packages")
+	@ResponseBody
+	public List<TravelPackageService> getAllTPS(){
+		
+	}
+}

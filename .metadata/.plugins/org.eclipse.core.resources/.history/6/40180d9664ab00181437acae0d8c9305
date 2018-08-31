@@ -1,0 +1,17 @@
+package com.example.demo.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+@Entity
+public class Feedback {
+
+	@Id
+	@GeneratedValue
+	private int feedbackId;
+	@ManyToOne
+	private Customer customer;
+
+}

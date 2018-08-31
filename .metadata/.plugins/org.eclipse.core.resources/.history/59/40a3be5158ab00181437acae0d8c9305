@@ -1,0 +1,31 @@
+package com.pw.io.booker.service;
+
+import java.util.List;
+
+import com.pw.io.booker.model.TravelItem;
+import com.pw.io.booker.repository.TravelItemRepository;
+import com.pw.io.booker.repository.TravelItemRepositorySQL;
+
+public class TravelItemService {
+
+	private TravelItemRepository travelItemRepository;
+	private TravelItemRepositorySQL travelItemRepositorySQL;
+
+	public TravelItemService(TravelItemRepository travelItemRepository, TravelItemRepositorySQL travelItemRepositorySQL) {
+		super();
+		this.travelItemRepository = travelItemRepository;
+		this.travelItemRepositorySQL  = travelItemRepositorySQL;
+	}
+
+	public TravelItem findById(int travelId) {
+		return travelItemRepository.findById(travelId);
+	}
+
+	public List<TravelItem> findAll() {
+		return travelItemRepository.findAll();
+	}
+
+	public TravelItem findByDescription(String description) {
+		return travelItemRepository.f
+	}
+}

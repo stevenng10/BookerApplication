@@ -1,0 +1,8 @@
+package com.example.demo.service;
+
+import com.example.demo.repository.CustomerRepository;
+
+public class CustomerService {
+
+	private CustomerRepository customerRepository;
+}

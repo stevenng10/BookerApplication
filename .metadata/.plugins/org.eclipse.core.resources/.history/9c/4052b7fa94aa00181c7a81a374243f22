@@ -1,0 +1,60 @@
+package com.pw.io.booker.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.pw.io.booker.model.TravelPackage;
+import com.pw.io.booker.service.TravelPackageService;
+
+@RestController
+public class TravelPackageController {
+
+	private TravelPackageService travelPackageService;
+
+	public TravelPackageController(TravelPackageService travelPackageService) {
+		this.travelPackageService = travelPackageService;
+	}
+
+	@GetMapping("/travel-packages")
+	public List<TravelPackage> getTravelPackage() {
+		return travelPackageService.findAll();
+	}
+
+	@GetMapping("/hello/{name}")
+	public String hello(@PathVariable("name") String nice) {
+		return nice;
+	}
+
+	@GetMapping("/login")
+	public String account(@RequestParam("username") String mi, @RequestParam("password") String no) {
+		return mi;
+	}
+
+	@GetMapping("/travel-packages/{id}")
+	public TravelPackage findById(@PathVariable("id") int id) {
+		return travelPackageService.findById(id);
+	}
+
+	@PostMapping("/travel-packages")
+	public TravelPackage addTravelPackage(@RequestBody TravelPackage travelPackage) {
+		return travelPackageService.createPackage(travelPackage);
+	}
+
+	@PutMapping("/travel-packages/{id}")
+	public TravelPackage updateTravelPackage(@RequestBody TravelPackage travelPackage) {
+		return travelPackageService.updatePackage(travelPackage);
+	}
+
+	@DeleteMapping("/travel-packages/{id}")
+	public void deleteTravelPackage(@RequestBody TravelPackage travelPackage) {
+		travelPackageService.delete(travelPackage);
+	}
+}

@@ -1,0 +1,15 @@
+package com.pw.io.booker.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.pw.io.booker.service.ReservationService;
+
+@Configuration
+public class ServiceConfig {
+
+	@Bean
+	public ReservationService reservationService() {
+
+	}
+}

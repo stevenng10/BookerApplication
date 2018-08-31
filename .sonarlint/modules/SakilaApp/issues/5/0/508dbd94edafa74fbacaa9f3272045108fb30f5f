@@ -1,0 +1,17 @@
+
+Fsquid:S11666"%Either log or rethrow this exception.(‹±ÃÆ8ãöÄÔ,HŠh
+Fsquid:S11669"%Either log or rethrow this exception.(”ı¾8ÿ ª¥Õ,HŒh
+Fsquid:S1166\"%Either log or rethrow this exception.(”ı¾8ÿ ª¥Õ,Hh
+Zsquid:S1854J"9Remove this useless assignment to local variable "nxtln".(ªˆ¸8ÙòËÔ,Hâg
+Zsquid:S1854 "9Remove this useless assignment to local variable "nxtln".(ªˆ¸8ãöÄÔ,HŞg
+6squid:S2095I"Close this "Scanner".(Ü—ìÃ8ãöÄÔ,HÜg
+n
+squid:S134%"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ŞŞ¶¡8ßÙƒÔ,Hãg
+Ksquid:S1481J"*Remove this unused "nxtln" local variable.(ªˆ¸8ßÙƒÔ,Häg
+hsquid:S00112;"FDefine and throw a dedicated exception instead of using a generic one.(‘ˆæı8ÿ ª¥Õ,Hh
+hsquid:S00112^"FDefine and throw a dedicated exception instead of using a generic one.(‘ˆæı8ÿ ª¥Õ,Hh
+Ksquid:S1481 "*Remove this unused "nxtln" local variable.(ªˆ¸8ãöÄÔ,Hág
+6squid:S2095"Close this "Scanner".(Ü—ìÃ8ÙòËÔ,Hßg
+msquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(«í£’ùÿÿÿÿ8ÿ ª¥Õ,Hh
+Fsquid:S1166Y"%Either log or rethrow this exception.(‹±ÃÆ8ÙòËÔ,H‹h
+msquid:S00112@"FDefine and throw a dedicated exception instead of using a generic one.(Çşÿÿÿÿ8¼Íª¥Õ,Hœh

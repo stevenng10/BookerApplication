@@ -1,0 +1,11 @@
+
+¯squid:S2293"Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.)(Üá¬‡8›°íÑ,H„#
+4squid:S1220""Move this file to a named package.Hñ"
+Ssquid:S1118":Add a private constructor to hide the implicit public one.(»èö
+Hò"
+[squid:S1854":Remove this useless assignment to local variable "myList".(Üá¬‡8›°íÑ,H†#
+Lsquid:S1481"+Remove this unused "myList" local variable.(Üá¬‡8›°íÑ,H…#
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÛãïúHğ"
+`
+squid:S106";Replace this usage of System.out or System.err by a logger.(îäìÿÿÿÿÿ8ŠË¼ìÑ,H‚#

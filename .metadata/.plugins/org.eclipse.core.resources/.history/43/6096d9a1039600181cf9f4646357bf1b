@@ -1,0 +1,62 @@
+package hello;
+
+import java.util.Scanner;
+
+public class ExerciseDay1 {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		boolean continue_ = false;
+		
+		do {
+			
+			System.out.print("Input a number from 1 to 20 or choose to type (I give up): ");
+			String user_input = input.nextLine();
+			
+			int randomNum = (int)(Math.random()*20);
+			int counter = 0;
+			
+			if(user_input.equals("I give up")) {
+				
+				System.out.println("Aww.. Oh well.. Here’s the number: " + randomNum);
+				continue_ = false;
+				
+			} else {
+				
+				int num = Integer.parseInt(user_input);
+				
+				if(num < 0 || num > 20) {
+					
+					System.out.println("Please input a number that is within range.");
+					continue_ = true;
+					
+				} else {
+					
+					if(num > randomNum && num < randomNum) {
+						
+						System.out.println("Congrats! You won!");
+						counter++;
+						continue_ = true;
+						
+					} else {
+						
+						++counter;
+						System.out.println("Wrong! You haven’t guessed the number!");
+						continue_ = false;
+						
+					}
+					
+				}
+				
+			}
+			
+		} while(continue_);
+		input.close();
+		
+		//System.out.println("Please input a number or a word if its ");
+		
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+
+msquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Æ²ÁÆûÿÿÿÿ8†µô¦Ö,Hâx
+Esquid:S2095"Close this "PreparedStatement".(öÚ¥ùÿÿÿÿ8“Ü‡ªÖ,Hãx
+Isquid:S11483"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8†µô¦Ö,Hæx
+Fsquid:S11662"%Either log or rethrow this exception.(É®£8†µô¦Ö,Hçx
+Fsquid:S1166,"%Either log or rethrow this exception.(”ı¾8†µô¦Ö,Håx
+hsquid:S00112."FDefine and throw a dedicated exception instead of using a generic one.(‘ˆæı8†µô¦Ö,Hèx
+Fsquid:S1166)"%Either log or rethrow this exception.(É®£8†µô¦Ö,Häx

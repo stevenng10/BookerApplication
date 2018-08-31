@@ -1,0 +1,55 @@
+package com.booker.app.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.booker.app.model.TravelPackage;
+import com.booker.app.repository.ImageRepository;
+import com.booker.app.repository.TravelPackageRepository;
+
+@Service
+public class TravelPackageService {
+
+	private TravelPackageRepository travelPackageRepository;
+	private ServiceService serviceService;
+	private ImageRepository imageRepository;
+
+	public TravelPackageService(TravelPackageRepository travelPackageRepository, ServiceService serviceService,
+			ImageRepository imageRepository) {
+		super();
+		this.travelPackageRepository = travelPackageRepository;
+		this.serviceService = serviceService;
+		this.imageRepository = imageRepository;
+	}
+
+	public TravelPackage findById(int id) {
+		return travelPackageRepository.findById(id).get();
+	}
+
+	public List<TravelPackage> findAll() {
+		return (List<TravelPackage>) travelPackageRepository.findAll();
+	}
+
+	@Transactional
+	public TravelPackage saveAllTravelPackage(TravelPackage travelPackage) {
+		if (travelPackage.getAvailableServiceList() != null || travelPackage.getImages() != null) {
+			serviceService.saveService(travelPackage.getAvailableServiceList());
+			imageRepository.saveAll(travelPackage.getImages());
+			return travelPackageRepository.save(travelPackage);
+		} else if (travelPackage.getAvailableServiceList() != null || travelPackage.getImages() == null) {
+			serviceService.saveService(travelPackage.getAvailableServiceList());
+			return travelPackageRepository.save(travelPackage);
+		} else if (travelPackage.getAvailableServiceList() == null || travelPackage.getImages() != null) {
+			imageRepository.saveAll(travelPackage.getImages());
+			return travelPackageRepository.save(travelPackage);
+		} else {
+			return travelPackageRepository.save(travelPackage);
+		}
+	}
+
+	public void deleteTravelPackage(TravelPackage travelPackage) {
+		travelPackageRepository.delete(travelPackage);
+	}
+}

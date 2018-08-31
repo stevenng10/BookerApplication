@@ -1,0 +1,41 @@
+
+nsquid:S00112’"FDefine and throw a dedicated exception instead of using a generic one.(›¼ïöûÿÿÿÿ8à†é¥Ö,HÖu
+zsquid:S11923"TDefine a constant instead of duplicating this literal "Exception occured: " 5 times.(ÙÈ³ùüÿÿÿÿ8Ñˆ×¤Ö,HÍs
+@squid:S2095J"Close this "PreparedStatement".(ÀÖĞ½8¯Ğ½£Ö,HÍq
+asquid:S001124"FDefine and throw a dedicated exception instead of using a generic one.(‘ˆæıHËq
+Gsquid:S1166²"%Either log or rethrow this exception.(É®£8à†é¥Ö,HÔu
+‹squid:S11924"jDefine a constant instead of duplicating this literal "Error occurred. Please try again later..." 5 times.(‘ˆæı8Ñˆ×¤Ö,HÌs
+vsquid:S11921"PDefine a constant instead of duplicating this literal "File not found." 5 times.(ãŸËüÿÿÿÿ8Ñˆ×¤Ö,HÏs
+nsquid:S00112¹"FDefine and throw a dedicated exception instead of using a generic one.(¡Çç›ÿÿÿÿÿ8æ«‚¦Ö,H÷u
+Fsquid:S1166^"%Either log or rethrow this exception.(É®£8¯Ğ½£Ö,HÕq
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(€ó¦ıHÌq
+Gsquid:S1166‹"%Either log or rethrow this exception.(É®£8Ñˆ×¤Ö,HÕs
+Fsquid:S1166U"%Either log or rethrow this exception.(É®£8¯Ğ½£Ö,HÔq
+Gsquid:S1166…"%Either log or rethrow this exception.(”ı¾8Ñˆ×¤Ö,HÔs
+Esquid:S2095q"Close this "PreparedStatement".(öÚ¥ùÿÿÿÿ8üºÛ¤Ö,Hİs
+Gsquid:S1166¬"%Either log or rethrow this exception.(”ı¾8à†é¥Ö,HÓu
+hsquid:S00112Z"FDefine and throw a dedicated exception instead of using a generic one.(‘ˆæı8¾šÀ£Ö,HØq
+Gsquid:S1166Ñ"%Either log or rethrow this exception.(É®£8æ«‚¦Ö,Hõu
+isquid:S00112Í"FDefine and throw a dedicated exception instead of using a generic one.(‘ˆæı8æ«‚¦Ö,Höu
+Gsquid:S1166‚"%Either log or rethrow this exception.(É®£8Ñˆ×¤Ö,HÓs
+Fsquid:S1166/"%Either log or rethrow this exception.(É®£8ÿûë¢Ö,Høo
+squid:S11920"wDefine a constant instead of duplicating this literal "SQLException occurred - databse connection not found: " 5 times.(­µĞèıÿÿÿÿ8Ñˆ×¤Ö,HÎs
+Fsquid:S1166X"%Either log or rethrow this exception.(”ı¾8¾šÀ£Ö,H×q
+Jsquid:S1148³"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8à†é¥Ö,H×u
+Fsquid:S11668"%Either log or rethrow this exception.(É®£8 ®é¢Ö,Hào
+?squid:S11662"%Either log or rethrow this exception.(”ı¾HÊq
+Jsquid:S1148Ò"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8æ«‚¦Ö,Høu
+Asquid:S2095Ã"Close this "PreparedStatement".(ÀÖĞ½8æ«‚¦Ö,Hñu
+asquid:S00112?"FDefine and throw a dedicated exception instead of using a generic one.(¦çª«Hğn
+8squid:S2095!"Close this "ResultSet".(² €í8á£è¢Ö,Hİo
+Gsquid:S1166©"%Either log or rethrow this exception.(É®£8à†é¥Ö,HÒu
+Jsquid:S1148Œ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ñˆ×¤Ö,HØs
+Asquid:S2095"Close this "PreparedStatement".(ÀÖĞ½8à†é¥Ö,HÑu
+8squid:S2095 "Close this "Statement".(˜ğ×8á£è¢Ö,HÜo
+Gsquid:S1166È"%Either log or rethrow this exception.(É®£8æ«‚¦Ö,Hóu
+Gsquid:S1166Ë"%Either log or rethrow this exception.(”ı¾8æ«‚¦Ö,Hôu
+msquid:S00112e"FDefine and throw a dedicated exception instead of using a generic one.(š›£•ıÿÿÿÿ8Ñˆ×¤Ö,H×s
+isquid:S00112®"FDefine and throw a dedicated exception instead of using a generic one.(‘ˆæı8à†é¥Ö,HÕu
+Isquid:S1148_"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¯Ğ½£Ö,HÖq
+Isquid:S11489"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÿûë¢Ö,Hùo
+isquid:S00112‡"FDefine and throw a dedicated exception instead of using a generic one.(‘ˆæı8Ñˆ×¤Ö,HÖs

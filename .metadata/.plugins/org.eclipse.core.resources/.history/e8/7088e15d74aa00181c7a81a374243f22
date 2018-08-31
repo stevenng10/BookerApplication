@@ -1,0 +1,6 @@
+package com.pw.io.booker.controller;
+
+@Controller
+public class BookerController {
+
+}

@@ -1,0 +1,31 @@
+
+Fsquid:S1166R"%Either log or rethrow this exception.(‹±ÃÆ8™â‰’Ô,HÏg
+hsquid:S00112W"FDefine and throw a dedicated exception instead of using a generic one.(‘ˆæı8 Ä¦¥Õ,Hîg
+Ksquid:S1481h"*Remove this unused "nxtln" local variable.(ªˆ¸8™â‰’Ô,HÖg
+Fsquid:S1166."%Either log or rethrow this exception.(‹±ÃÆ8ı˜ÓÔ,Hçg
+Fsquid:S1166|"%Either log or rethrow this exception.(‹±ÃÆ8‰ ªÔ,Høg
+Zsquid:S1854B"9Remove this useless assignment to local variable "nxtln".(ªˆ¸8¸ôÔ,HĞg
+Fsquid:S1166U"%Either log or rethrow this exception.(”ı¾8 Ä¦¥Õ,Hëg
+Zsquid:S1854"9Remove this useless assignment to local variable "nxtln".(ªˆ¸8ı˜ÓÔ,HËg
+Osquid:S1481`")Remove this unused "hmap" local variable.(¦‹ËÅşÿÿÿÿ8š±—’Ô,HØg
+Fsquid:S11661"%Either log or rethrow this exception.(”ı¾8 Ä¦¥Õ,Hêg
+ysquid:S1192"SDefine a constant instead of duplicating this literal "customer-table.txt" 3 times.(Ë±àÌûÿÿÿÿ8ßıÔÔ,HÕg
+6squid:S2095A"Close this "Scanner".(Ü—ìÃ8›ºçÔ,HÔg
+6squid:S2095"Close this "Scanner".(Ü—ìÃ8™â‰’Ô,H×g
+^squid:S1854`"8Remove this useless assignment to local variable "hmap".(¦‹ËÅşÿÿÿÿ8š±—’Ô,HÒg
+Zsquid:S1854h"9Remove this useless assignment to local variable "nxtln".(ªˆ¸8›ºçÔ,HÚg
+s
+squid:S134m"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ûºßœÿÿÿÿÿ8ı˜ÓÔ,HÍg
+Ksquid:S1481"*Remove this unused "nxtln" local variable.(ªˆ¸8‰ ªÔ,HÊg
+Ksquid:S1481B"*Remove this unused "nxtln" local variable.(ªˆ¸8ı˜ÓÔ,HÑg
+6squid:S2095g"Close this "Scanner".(Ü—ìÃ8‰ ªÔ,HÉg
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ßÎã†8 Ä¦¥Õ,Híg
+gsquid:S001128"FDefine and throw a dedicated exception instead of using a generic one.(ùõì;8 Ä¦¥Õ,Hïg
+hsquid:S001123"FDefine and throw a dedicated exception instead of using a generic one.(‘ˆæı8 Ä¦¥Õ,Hìg
+vsquid:S11920"PDefine a constant instead of duplicating this literal "File not found." 3 times.(ãŸËüÿÿÿÿ8ø£§¥Õ,Hùg
+‹squid:S11923"jDefine a constant instead of duplicating this literal "Error occurred. Please try again later..." 3 times.(‘ˆæı8ø£§¥Õ,Húg
+™squid:S1192/"xDefine a constant instead of duplicating this literal "FileNotFoundException occurred - input file not found: " 3 times.(ÿ‡Æ“8ø£§¥Õ,Hûg
+zsquid:S11922"TDefine a constant instead of duplicating this literal "Exception occured: " 3 times.(ÙÈ³ùüÿÿÿÿ8ø£§¥Õ,Hüg
+Fsquid:S1166"%Either log or rethrow this exception.(”ı¾8ø£§¥Õ,Hıg
+isquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(‘ˆæı8ø£§¥Õ,Hşg
+msquid:S00112\"FDefine and throw a dedicated exception instead of using a generic one.(äïëÃÿÿÿÿÿ8ø£§¥Õ,Hÿg

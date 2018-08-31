@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: booking-service-legacy
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: User 2
+Implementation-Vendor-Id: com.pw.io.booker
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/booking-service-legacy
+Created-By: Maven Integration for Eclipse
+

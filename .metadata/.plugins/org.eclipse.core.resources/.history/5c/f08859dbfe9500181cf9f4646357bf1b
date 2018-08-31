@@ -1,0 +1,54 @@
+package hello;
+
+import java.util.Scanner;
+
+public class ExerciseDay1 {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		boolean cont = false;
+		int counter = 0;
+		
+		do {
+			
+			System.out.print("Input a number from 1 to 20");
+			int num = input.nextInt();
+			int randomNum = (int)(Math.random()*20);
+			
+			if(num < 0 && num > 20) {
+				
+				System.out.println("Please input a number that is within range.");
+				cont = true;
+				
+			} else {
+				
+				if(num > randomNum) {
+					
+					System.out.println("Try lower");
+					counter++;
+					cont = true;
+					
+				} else if ( num < randomNum) {
+					
+					System.out.println("Try higher");
+					counter++;
+					cont = true;
+					
+				} else {
+					
+					++counter;
+					System.out.println("You did it in " + counter + " trials.");
+					cont = false;
+					
+				}
+				
+			}
+			
+		} while(cont);
+		input.close();
+
+	}
+
+}

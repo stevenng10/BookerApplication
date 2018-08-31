@@ -1,0 +1,4 @@
+
+asquid:S00112""FDefine and throw a dedicated exception instead of using a generic one.(Éáâ…HÄ~
+Lsquid:S1172."2Remove this unused method parameter "reservation".(ÎïàÔHÃ~
+Esquid:S1168/"+Return an empty collection instead of null.(¥¹ïHÂ~
