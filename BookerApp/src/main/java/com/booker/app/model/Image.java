@@ -8,6 +8,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators.PropertyGenerator;
 
 @Entity
@@ -21,9 +22,11 @@ public class Image {
 	private String imageUrl;
 	@ManyToOne
 	@JoinColumn(name = "serviceId")
+	@JsonIgnore
 	private ServiceClass service;
 	@ManyToOne
 	@JoinColumn(name = "travelPackageId")
+	@JsonIgnore
 	private TravelPackage travelPackage;
 
 	public TravelPackage getTravelPackage() {

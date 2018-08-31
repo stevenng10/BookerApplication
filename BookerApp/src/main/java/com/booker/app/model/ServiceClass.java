@@ -2,6 +2,7 @@ package com.booker.app.model;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,6 +12,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators.PropertyGenerator;
 
 @Entity
@@ -26,11 +28,14 @@ public class ServiceClass {
 	private List<Image> image;
 	@ManyToOne
 	@JoinColumn(name = "reservationId")
+	@JsonIgnore
 	private Reservation reservation;
 	@OneToMany(mappedBy = "service")
+	@JsonIgnore
 	private List<ServiceFee> serviceFee;
-	@ManyToOne
+	@ManyToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "travelPackageId")
+	@JsonIgnore
 	private TravelPackage travelPackage;
 
 	public List<ServiceFee> getServiceFee() {
