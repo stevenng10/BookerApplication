@@ -41,8 +41,9 @@ public class BookerConfiguration {
 	}
 
 	@Bean
-	public ReservationService reservationService(ReservationRepository reservationRepository) {
-		return new ReservationService(reservationRepository);
+	public ReservationService reservationService(ReservationRepository reservationRepository,
+			ServiceService serviceService) {
+		return new ReservationService(reservationRepository, serviceService);
 	}
 
 	@Bean

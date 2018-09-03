@@ -8,17 +8,15 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators.PropertyGenerator;
 
 @Entity
-@JsonIdentityInfo(generator = PropertyGenerator.class, property = "serviceId")
 public class ServiceClass {
 
 	@Id
@@ -28,10 +26,9 @@ public class ServiceClass {
 	private String description;
 	@OneToMany(mappedBy = "service", cascade = CascadeType.ALL)
 	private List<Image> image;
-	@ManyToOne
-	@JoinColumn(name = "reservationId")
+	@ManyToMany(mappedBy = "availedServiceList", cascade = CascadeType.REMOVE)
 	@JsonIgnore
-	private Reservation reservation;
+	private List<Reservation> reservations;
 	@OneToMany(mappedBy = "service", cascade = CascadeType.ALL)
 	@JsonIgnore
 	private List<ServiceFee> serviceFee;
@@ -60,14 +57,6 @@ public class ServiceClass {
 		return serviceId;
 	}
 
-	public Reservation getReservation() {
-		return reservation;
-	}
-
-	public void setReservation(Reservation reservation) {
-		this.reservation = reservation;
-	}
-
 	public void setServiceId(int serviceId) {
 		this.serviceId = serviceId;
 	}
@@ -94,6 +83,14 @@ public class ServiceClass {
 
 	public void setImage(List<Image> image) {
 		this.image = image;
+	}
+
+	public List<Reservation> getReservations() {
+		return reservations;
+	}
+
+	public void setReservations(List<Reservation> reservations) {
+		this.reservations = reservations;
 	}
 
 	@PrePersist

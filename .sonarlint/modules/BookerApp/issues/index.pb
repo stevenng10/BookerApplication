@@ -51,3 +51,5 @@ o
 ?src/main/java/com/booker/app/controller/CustomerController.java,8\4\8435aad57102dd28e402cccb1e6e46d5d20495a6
 n
 >src/main/java/com/booker/app/service/TravelPackageService.java,1\4\146b19b592bd091a28ebe7354767806987796e3e
+s
+Csrc/main/java/com/booker/app/configuration/BookerConfiguration.java,4\c\4c84a883b37b0258fe50cdb1909940b49ab6793c

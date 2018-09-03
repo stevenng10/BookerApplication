@@ -2,18 +2,18 @@ package com.booker.app.model;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.PrePersist;
+import javax.persistence.PreUpdate;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators.PropertyGenerator;
 
 @Entity
-@JsonIdentityInfo(generator = PropertyGenerator.class, property = "customerId")
 public class Customer {
 
 	@Id
@@ -21,7 +21,7 @@ public class Customer {
 	private int customerId;
 	private String firstName;
 	private String lastName;
-	@OneToMany(mappedBy = "customer")
+	@OneToMany(mappedBy = "customer", cascade = CascadeType.PERSIST)
 	@JsonIgnore
 	private List<Reservation> reservation;
 
@@ -57,4 +57,21 @@ public class Customer {
 		this.lastName = lastName;
 	}
 
+	@PrePersist
+	public void saveRelationships() {
+		createRealtionships();
+	}
+
+	@PreUpdate
+	public void updateRealtionships() {
+		createRealtionships();
+	}
+
+	private void createRealtionships() {
+		if (this.reservation != null) {
+			for (Reservation reserve : this.reservation) {
+				reserve.setCustomer(this);
+			}
+		}
+	}
 }

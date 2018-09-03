@@ -3,12 +3,14 @@ package com.booker.app.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.booker.app.model.Customer;
 import com.booker.app.model.Reservation;
 import com.booker.app.repository.CustomerRepository;
 
+@Service("cs")
 public class CustomerService {
 
 	private CustomerRepository customerRepository;
@@ -63,5 +65,9 @@ public class CustomerService {
 			customers.add(customer);
 		}
 		customerRepository.deleteAll(customers);
+	}
+
+	public boolean doExist(int id) {
+		return customerRepository.existsById(id);
 	}
 }

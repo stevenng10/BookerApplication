@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.pointwest.bootcamp.exception.repository.GroceryRepository"/>
-<fullyQualifiedTypeName name="com.pointwest.bootcamp.exception.beans.GroceryItem"/>
-<fullyQualifiedTypeName name="com.pointwest.bootcamp.exception.exceptions.GroceryException"/>
-<fullyQualifiedTypeName name="org.junit.Before"/>
-<fullyQualifiedTypeName name="com.pointwest.bootcamp.tdd.manager.Front22Manager"/>
-<fullyQualifiedTypeName name="com.mincat.presentation.MincatPres"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.mincat.manager.MincatManager"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="com.animalshelter.DAO.ShelterDAO"/>
@@ -57,7 +50,14 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
 <fullyQualifiedTypeName name="com.booker.app.repository.ServiceRepository"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
 <fullyQualifiedTypeName name="com.booker.app.model.Image"/>
+<fullyQualifiedTypeName name="com.booker.app.service.TravelPackageService"/>
+<fullyQualifiedTypeName name="com.booker.app.service.ServiceService"/>
+<fullyQualifiedTypeName name="com.booker.app.service.ImageService"/>
+<fullyQualifiedTypeName name="com.booker.app.service.CustomerService"/>
+<fullyQualifiedTypeName name="com.booker.app.service.ReservationService"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.booker.app.service.ServiceFeeService"/>
 </qualifiedTypeNameHistroy>

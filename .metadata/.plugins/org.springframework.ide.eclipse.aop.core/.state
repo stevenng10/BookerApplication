@@ -6,4 +6,5 @@
 <aop-project name="booking-service-Qualifier"/>
 <aop-project name="BookerApp"/>
 <aop-project name="booking-service-di2"/>
+<aop-project name="BookerApp2"/>
 </aop-reference-model>

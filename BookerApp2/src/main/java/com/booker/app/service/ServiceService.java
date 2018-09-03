@@ -49,4 +49,8 @@ public class ServiceService {
 	public void deleteService(Integer serviceId) {
 		serviceRepository.delete(findById(serviceId));
 	}
+
+	public boolean doExist(int id) {
+		return serviceRepository.existsById(id);
+	}
 }

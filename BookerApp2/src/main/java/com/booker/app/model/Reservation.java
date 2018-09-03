@@ -8,20 +8,19 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators.PropertyGenerator;
-
 @Entity
-@JsonIdentityInfo(generator = PropertyGenerator.class, property = "reservationId")
 public class Reservation {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int reservationId;
-	@OneToMany(mappedBy = "reservation")
+	@ManyToMany
+	@JoinTable
 	private List<ServiceClass> availedServiceList;
 	private LocalDate startDate;
 	@ManyToOne
